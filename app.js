@@ -22,7 +22,7 @@ const menu = [
     id: 3,
     title: "Bibimbap",
     category: "Korea",
-    price: "8.99$",
+    price: "8.99",
     img:
       "https://dwellbymichelle.com/wp-content/uploads/2020/05/DWELL-bibimbap.jpg",
     desc: `Boiling vegetables, serving with special hot sauce.`,
@@ -101,7 +101,7 @@ function createButtons() {
     const button = document.createElement('button');
     button.id = category;
     button.innerText = category;
-    button.classList = 'btn-item btn btn-outline-dark d-inline';
+    button.classList = 'btn-style701 click-btn';
     button.addEventListener('click', filterMenu);
     buttonContainer.appendChild(button);
   });
@@ -122,13 +122,13 @@ function renderMenuItems(menuItems) {
     const menuItem = document.createElement('div');
     menuItem.classList.add('menu-items', 'col-6');
     menuItem.innerHTML = `
-      <img src="${item.img}" class="photo">
+      <img src="${item.img}" class="photo scale-up-center">
       <div class="menu-info">
-        <div class="menu-title">
+        <div class="menu-title tracking-in-expand ">
           <h4>${item.title}</h4>
           <h4 class="price">${item.price}$</h4>
         </div>
-        <div class="menu-text">
+        <div class="menu-text text-focus-in>
           ${item.desc}
         </div>
       </div>
