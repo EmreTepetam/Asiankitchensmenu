@@ -128,7 +128,7 @@ function renderMenuItems(menuItems) {
           <h4>${item.title}</h4>
           <h4 class="price">${item.price}$</h4>
         </div>
-        <div class="menu-text text-focus-in>
+        <div class="menu-text text-focus-in">
           ${item.desc}
         </div>
       </div>
