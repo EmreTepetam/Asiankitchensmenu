@@ -1,1 +1,1 @@
-A simple, minimalistic, and user-friendly menu project designed for restaurants. This project primarily utilizes JavaScript for user interactions and dynamic content management. Additionally, it is structured with HTML and styled with CSS.
+This is a simple and easy-to-use menu project for restaurants. The project uses JavaScript to make the menu interactive and manage content. It also uses HTML for structure and CSS for styling.
